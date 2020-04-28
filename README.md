@@ -12,6 +12,9 @@ Traktorを使用していること
 同じLAN内にIcecastサーバを立てていること  
 Traktorのbroadcastingの設定ができていてIcecastサーバで受信できていること
 
+参考：Icecast  
+http://icecast.org/
+
 参考：KAI-YOU 開発者ブログ 様  
 https://kai-you-tech.hatenablog.com/entry/2019/11/19/190107
 
@@ -20,5 +23,5 @@ https://kai-you-tech.hatenablog.com/entry/2019/11/19/190107
 OBSならテキストとして読み込むと、ファイルが更新されたときにOBS上の表示も更新されるハズ
 
 ## その他
-pythonの勉強がてらに作ったので不具合については許してください。
+pythonの勉強がてらに作ったので不具合については許してください。  
 要望とかは気が向いたときに対応できれば…
