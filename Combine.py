@@ -104,8 +104,9 @@ def getJsonTxt():
 			
 			if ARTIST != strArtist or TITLE != strTitle:
 				with open(outPath, 'w', encoding='utf-8') as txtData:
-					txtData.write('Artist : ' + ARTIST + '\n')
-					txtData.write('Title : ' + TITLE + '\n')
+#					txtData.write('Artist : ' + ARTIST + '\n')
+#					txtData.write('Title : ' + TITLE + '\n')
+					txtData.write(ARTIST + ' - ' + TITLE + '\n')
 					strArtist = ARTIST
 					strTitle = TITLE
 			
@@ -116,7 +117,23 @@ def getJsonTxt():
 		except OSError as e:
 			txtLog.insert(1.0, '\n')
 			txtLog.insert(1.0, e)
+			with open(outPath, 'w', encoding='utf-8') as txtData:
+				txtData.write('no data')
 		
+		except KeyError as e:
+			txtLog.insert(1.0, '\n')
+			txtLog.insert(1.0, e)
+			txtLog.insert(1.0, 'KeyError ')
+			with open(outPath, 'w', encoding='utf-8') as txtData:
+				txtData.write('no data')
+		
+		except json.JSONDecodeError as e:
+			txtLog.insert(1.0, '\n')
+			txtLog.insert(1.0, e)
+			txtLog.insert(1.0, 'JSONDecodeError ')
+			with open(outPath, 'w', encoding='utf-8') as txtData:
+				txtData.write('no data')
+
 		for i in range(int(cronCycle)):
 			if stop_flag:
 				break
