@@ -1,6 +1,12 @@
 # CombineTool
 Traktorのbroadcastingからアーティスト名と楽曲名を取得し、テキストファイルに出力する時の、**テキスト出力する側のツール**
-このツールを使うにはIcecastサーバが必要です。
+
+このツールを使うには
+
+- Icecastサーバ
+- Traktorのbroadcasting機能
+
+が必要です。
 
 ## ダウンロード
 Releaseのタブからどうぞ
