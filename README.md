@@ -5,7 +5,7 @@ Traktorのbroadcasting機能からアーティスト名と楽曲名を取得し�
 このツールを使うには
 
 - windows
-- Icecastサーバ (http://icecast.org/)
+- 2.4x以降のIcecastサーバ (http://icecast.org/)
 - Traktorのbroadcasting機能
 
 が必要です。
