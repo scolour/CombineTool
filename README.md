@@ -11,7 +11,8 @@ Traktorのbroadcasting機能からアーティスト名と楽曲名を取得し�
 が必要です。
 
 ## ダウンロード
-Releaseのタブからどうぞ
+Releaseのタブからどうぞ  
+https://github.com/scolour/CombineTool/releases  
 
 ## 使い方
 zipの中にreadmeがあるのでそれ読んでください。
